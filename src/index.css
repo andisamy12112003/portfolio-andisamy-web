@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer components {
+  .heading {
+    @apply underline font-bold text-center text-7xl p-5
+  }
+
+  .header-btns {
+    @apply hover:border-l-4 shadow-lg min-w-[120px] h-[40px] flex flex-col items-center justify-center font-bold hover:text-blue-600 hover:p-5
+  }
+
+  .home-btns {
+    @apply hover:text-[15px] font-light hover:m-1 hover:border-l-8 hover:font-extrabold hover:bg-gray-300 shadow-lg shadow-gray-400 hover:shadow-blue-400 text-lg rounded-xl p-4 min-w-60 h-10 flex items-center justify-center
+  }
+
+  .outfit-sans {
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .skill-image-style {
+    @apply bg-lime-200 size-45 shadow-2xl mt-4 rounded-3xl flex flex-col justify-center items-center hover:size-50
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+}
+
+@theme {
+  --color-skin: #f5f2f0;
+}
