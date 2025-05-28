@@ -9,7 +9,7 @@ const Contact = () => {
                 <h1 className="font-mono text-4xl mb-3 max-sm:text-2xl">Phone Number:</h1>
                 <p className="font-mono text-4xl mb-5 text-gray-700 max-sm:text-2xl">6369697633</p>
                 <h1 className="font-mono text-4xl mb-3 max-sm:text-2xl">Gmail:</h1>
-                <p className="font-mono text-4xl mb-7 text-gray-700 max-sm:text-2xl">andisamyabimech2021@gmail.com</p>
+                <p className="font-mono text-4xl mb-7 text-gray-700 max-sm:text-2xl">andisamyfullstack@gmail.com</p>
 
             </div>
             <div className="askme w-[40vw] max-sm:w-full  flex flex-col items-start max-md:p-6">
